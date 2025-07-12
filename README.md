@@ -23,7 +23,6 @@ By building this app, beginners will learn how to make HTTP requests using JavaS
 ## 📸 Screenshot
 
 ![Random Joke Generator Screenshot](./src/demo.png)  
-> _Add your actual image to the `/` folder and update the filename if needed._
 
 ---
 
