@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Live App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+     <div class="content">
+           <form id="form" class="input-form">
+               <input id="input-value" type="text" required placeholder="Search City...">
+               <svg class="search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+           </form>
+           <div class="weather-content">
+              <div class="title">
+                   <div class="img-title">
+                     <img id="country-img" src="https://flagcdn.com/mm.svg" alt="icon" width="30" height="30">
+                     <p id="country-name">Yangon<p id="code">MM</p></p>
+                   </div>
+              </div>
+              <div class="weather-details">
+                  <div class="details-content">
+                      <img id="weather-icon"  src="https://openweathermap.org/img/wn/04d@4x.png" alt="Weather Icon" />
+                       <h1 id="degree">26 &nbsp;&deg;C</h1>
+                      <p id="condition">Light, Rain</p>
+                  </div>
+              </div>
+              <div class="weather-information">
+                  <div class="info-left">
+                       <div>
+                           <p>Feels Like</p>
+                           <h3 id="feels">28&nbsp;&deg;C</h3>
+                       </div>
+                       <div>
+                           <p>Humidity</p>
+                           <h3 id="humidity">68%</h3>
+                       </div>
+                  </div>
+                  <div class="info-right">
+                      <div>
+                          <p>Wind</p>
+                          <h3 id="wind">5 km/h</h3>
+                      </div>
+                  </div>
+              </div>
+           </div>
+     </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
